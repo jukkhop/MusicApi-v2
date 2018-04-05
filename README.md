@@ -1,0 +1,1 @@
+RESTful API implemented with Node.js, Express and MySQL. An alternative backend to MusicApp.

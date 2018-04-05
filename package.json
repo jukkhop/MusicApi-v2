@@ -1,0 +1,21 @@
+{
+  "name": "music-api-v2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+    "node": "^9.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
