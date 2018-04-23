@@ -1,5 +1,3 @@
-'use strict';
-
 var model = require('../models/artistModel');
 
 exports.getArtists = (req, res) => {
@@ -8,6 +6,7 @@ exports.getArtists = (req, res) => {
       res.json(data);
     })
     .catch(err => {
+      res.status(400);
       res.send(err);
     })
 }
@@ -18,6 +17,7 @@ exports.addArtist = (req, res) => {
       res.json(data[0]);
     })
     .catch(err => {
+      res.status(400);
       res.send(err);
     })
 }
@@ -28,6 +28,7 @@ exports.deleteArtist = (req, res) => {
       res.json(data[0]);
     })
     .catch(err => {
+      res.status(400);
       res.send(err);
     })
 }
